@@ -1,9 +1,11 @@
 :root {
-  --base: #ffc600;
+  --base: #030303;
   --spacing: 5px;
   --blur: 1px;
   --border: 1px;
   --shade: 1px;
+  --ancho: 100%;
+
 }
 
 body {
@@ -26,6 +28,7 @@ img {
   filter: blur(var(--blur));
   border-radius: var(--border);
   box-shadow: 0px 0px var(--shade) 0px rgb(255, 255, 255);
+  width: var(--ancho);
 }
 
 .h1 {
